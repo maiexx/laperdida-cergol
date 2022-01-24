@@ -29,6 +29,10 @@ header nav ul li a{
     justify-content: flex-start;
 } */
 
+.bg.perdida{
+    background-color:#FFE6E8;
+}
+
 .nav-flex{
     display: flex;
     /* justify-content: space-evenly; */
@@ -208,6 +212,10 @@ footer{
     display: flex;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -267,4 +275,24 @@ nav ul li a:hover{
     } to {
         color: #FF4219;
     }
+}
+.tamaño-carrusel {
+    width: 40%;
+    margin: auto;
+}
+
+p {
+    text-align: inherit;
+    padding: 0% 13%;
+
+}
+.foto-entrada {
+    width: 80%;
+} 
+
+img {
+    border-radius: 5px;
+}
+.z-index {
+    z-index: -1;
 }
