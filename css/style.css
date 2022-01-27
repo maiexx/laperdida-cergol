@@ -48,7 +48,7 @@ header nav ul li a{
     padding: 1rem 18rem;
 }
 .nav-li {
-    padding : 0rem 1rem;
+    padding : 0rem 0.5rem;
 }
 .nav-logos {
     padding: 0rem 1rem 0rem 0rem;
@@ -216,8 +216,12 @@ footer{
     display: flex;
     justify-content: center;
 }
-
-
+.footer-margin {
+    margin: auto;
+}
+.redes {
+        margin: 0rem 5rem 0rem 0rem;
+}
 
 
 
@@ -228,6 +232,8 @@ footer{
 
 /*mobile*/
 @media only screen and (max-width: 480px){
+
+    
 
 }
 
@@ -250,7 +256,7 @@ footer{
   
 img:hover {
     transition: all 2s;
-    transform:scale(0.97);
+    transform:scale(0.99);
    }
  
 nav ul li a:hover{
@@ -277,7 +283,7 @@ nav ul li a:hover{
     }
 }
 .tamaño-carrusel {
-    width: 40%;
+    width: 25%;
     margin: auto;
 }
 
@@ -287,7 +293,7 @@ p {
 
 }
 .foto-entrada {
-    width: 80%;
+    width: 60%;
 } 
 
 img {
@@ -295,4 +301,23 @@ img {
 }
 .z-index {
     z-index: -1;
+}
+
+.padding {
+padding: 25px 0px;
+}
+.mapa {
+   
+    width: 90%;
+    border-radius: 5px;
+}
+.mapa-section {
+    margin: auto;
+    width: 74%;
+}
+.footer-flex {
+    display: flex;
+}
+.p-entrada {
+    padding: 16% 15%;
 }
