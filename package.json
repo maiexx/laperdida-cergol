@@ -1,0 +1,19 @@
+{
+  "name": "laperdida8-cergol-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiexx/laperdida-cergol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiexx/laperdida-cergol/issues"
+  },
+  "homepage": "https://github.com/maiexx/laperdida-cergol#readme"
+}

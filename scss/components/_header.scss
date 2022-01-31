@@ -1,0 +1,55 @@
+
+@import '../base/variable';
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: $bg-color;
+    font-family: 'Poppins', sans-serif;
+    color: $header-color;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+// ******ejemplo sass*******
+.bg.perdida{
+    background-color:$bg-color;
+}
+.logo-principal {
+    padding: 1rem 0rem 0rem 2rem;
+}
+.nav-pd {
+    padding: 1rem 18rem;
+}
+.nav-li {
+    padding : 0rem 0.5rem;
+}
+.nav-logos {
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.logos-flex{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0rem;
+    
+}
+// nav ul li{
+//     display: inline-block;
+//     justify-content: space-evenly;
+// }
+
+// *********para sass*****
+nav {
+    ul {
+        li {
+            display: inline-block;
+            justify-content: space-evenly;
+        }
+    }
+}
