@@ -1,0 +1,66 @@
+
+
+
+
+
+.titulo-principal{
+    color: #FF4219;
+    font-weight: medium ;
+    font-style: normal ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo-hero{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 16px;
+    font-weight: medium ;
+}
+
+// ********sass ejemplo de lista***
+h2{
+    color: nth($colores, 3);
+    font-weight: medium ;
+    font-style: normal ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.parrafo-lugar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.parrafo-habitaciones{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.parrafo-experiencias{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.parrafo-contacto{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 14px;
+}
+
+
+h3{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 16px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 12px;
+}
+
+p {
+    text-align: inherit;
+    padding: 0% 13%;
+
+}
