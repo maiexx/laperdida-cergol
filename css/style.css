@@ -83,6 +83,18 @@ nav ul li a:hover {
   border-radius: 20%;
 }
 
+.nav-flex {
+  display: flex;
+  background-color: #FFE6E8;
+  padding: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts de Google*/
 .titulo-principal {
   color: #FF4219;
   font-weight: medium;
@@ -103,7 +115,8 @@ h2 {
   color: #FF4219;
   font-weight: medium;
   font-style: normal;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
+  font-family: sans-serif;
   font-size: 20px;
 }
 
@@ -113,27 +126,29 @@ h2 {
 }
 
 .parrafo-habitaciones {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" sans-serif;
   font-size: 14px;
 }
 
 .parrafo-experiencias {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" sans-serif;
   font-size: 14px;
 }
 
 .parrafo-contacto {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins" sans-serif;
   font-size: 14px;
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
+  font-family: sans-serif;
   font-size: 16px;
 }
 
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
+  font-family: sans-serif;
   font-size: 12px;
 }
 
@@ -142,16 +157,9 @@ p {
   padding: 0% 13%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Fonts de Google*/
-.nav-flex {
+.flex {
   display: flex;
-  background-color: #FFE6E8;
-  padding: 12px;
+  justify-content: center;
 }
 
 .grid-container {
@@ -203,14 +211,6 @@ p {
   display: flex;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
-
-/*mobile*/
-/*tablet*/
-/*desktop*/
 h1 {
   transition: all 8s;
   font-size: 45px;
@@ -260,6 +260,34 @@ img {
 
 .p-entrada {
   padding: 16% 15%;
+}
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+  .tamaño-carrusel {
+    width: 80%;
+    margin: auto;
+  }
+
+  .foto-entrada {
+    width: 90%;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 968) {
+  .tamaño-carrusel {
+    width: 80%;
+    margin: auto;
+  }
+
+  .foto-entrada {
+    width: 90%;
+  }
+}
+/*desktop*/
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

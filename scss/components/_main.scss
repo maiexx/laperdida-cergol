@@ -1,6 +1,17 @@
 
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import '../base/mapas';
+@import '../base/mixins';
+
+/* Fonts de Google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 
 .titulo-principal{
@@ -24,39 +35,43 @@ h2{
     color: nth($colores, 3);
     font-weight: medium ;
     font-style: normal ;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    // font-family: 'Poppins', sans-serif;
+    // font-size: 20px;
+    @include h('Poppins', sans-serif,20px)
 }
 
 .parrafo-lugar{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+   
 }
 
 .parrafo-habitaciones{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-family: map-get($tamañoParrafos , font );
+    font-size: map-get($tamañoParrafos , size );
 }
 
 .parrafo-experiencias{
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-family: map-get($tamañoParrafos , font );
+    font-size: map-get($tamañoParrafos , size );
 }
 
 .parrafo-contacto{
-    font-family: 'Poppins', sans-serif;    
-    font-size: 14px;
+    font-family: map-get($tamañoParrafos , font );
+    font-size: map-get($tamañoParrafos , size );
 }
 
 
 h3{
-    font-family: 'Poppins', sans-serif;    
-    font-size: 16px;
+    // font-family: 'Poppins', sans-serif;    
+    // font-size: 16px;
+    @include h('Poppins', sans-serif,16px)
 }
 
 h4{
-    font-family: 'Poppins', sans-serif;    
-    font-size: 12px;
+    // font-family: 'Poppins', sans-serif;    
+    // font-size: 12px;
+    @include h('Poppins', sans-serif,12px)
 }
 
 p {

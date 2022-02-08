@@ -1,0 +1,118 @@
+
+
+@import '../base/extends';
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    justify-items: end;
+    grid-template-areas: 
+    "f1 f2"
+    "f1 f3"
+    "f1 f4"
+  
+ }
+ 
+.grid-item1 {
+  grid-area: f1  ;
+} 
+
+.grid-item2 {
+    grid-area: f2;
+    justify-self: flex-start;
+    
+} 
+
+.grid-item3 {
+  grid-area: f3;
+  justify-self: flex-start;
+} 
+
+.grid-item4 {
+    grid-area: f4;
+    justify-self: flex-start;
+} 
+
+.imagen-grid {
+    width: 200px;
+}
+
+.item-fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: transparent;
+}
+
+
+
+.imag-principal {
+    width: 40%;
+    border-radius: 12px;
+}
+.div-principio{
+    display: flex;
+}
+
+.flex {
+    @extend %flex;
+}
+
+ 
+
+ h1{
+   transition: all 8s;
+   font-size: 45px;
+   
+
+ }
+  
+img:hover {
+    transition: all 2s;
+    transform:scale(0.99);
+   }
+ 
+
+
+.animacionH1 {
+    animation-duration: 3s;
+    animation-name: animH1;
+  }
+@keyframes animH1{
+    from {
+        color: #FF4219;
+    }
+    50%{
+        color: #faae9d;
+    } to {
+        color: #FF4219;
+    }
+}
+.tamaño-carrusel {
+    width: 25%;
+    margin: auto;
+}
+
+
+.foto-entrada {
+    width: 60%;
+} 
+
+img {
+    border-radius: 5px;
+}
+.z-index {
+    z-index: -1;
+}
+
+.padding {
+padding: 25px 0px;
+}
+
+.p-entrada {
+    padding: 16% 15%;
+}

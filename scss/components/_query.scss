@@ -1,0 +1,34 @@
+
+
+
+/*mobile*/
+@media only screen and (max-width: 480px){
+
+    .tamaño-carrusel {
+        width: 80%;
+        margin: auto;
+    }
+    .foto-entrada {
+        width: 90%;
+    }
+}
+
+
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 968){
+
+    .tamaño-carrusel {
+        width: 80%;
+        margin: auto;
+    }
+    .foto-entrada {
+        width: 90%;
+    }
+}
+
+
+
+/*desktop*/
+@media only screen and (min-width: 969px){
+    
+}

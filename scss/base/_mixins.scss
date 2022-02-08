@@ -1,0 +1,7 @@
+
+
+@mixin h($font1,$font2,$size) {
+    font-family: $font1;
+    font-family: $font2;
+    font-size: $size;
+}
