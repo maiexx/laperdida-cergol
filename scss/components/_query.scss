@@ -9,16 +9,19 @@
         margin: auto;
     }
     .foto-entrada {
-        width: 90%;
+        width: 80%;
+    }
+    .div-principio {
+        display: block;
     }
 }
 
 
 /*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 968){
+@media only screen and (min-width: 481px) and (max-width: 768px){
 
     .tamaño-carrusel {
-        width: 80%;
+        width: 70%;
         margin: auto;
     }
     .foto-entrada {
@@ -27,8 +30,18 @@
 }
 
 
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .tamaño-carrusel {
+        width: 50%;
+        margin: auto;
+    }
+    .foto-entrada {
+        width: 90%;
+    }
+}
 
 /*desktop*/
-@media only screen and (min-width: 969px){
+@media only screen and (min-width: 1025px){
     
 }
